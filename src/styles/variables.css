@@ -1,0 +1,168 @@
+/* ============================================================
+   PRACHI PAN BHANDAR — Design Tokens (variables.css)
+   Ported from Tailwind config used in original HTML pages
+   ============================================================ */
+
+:root {
+  /* ── Brand Colors ── */
+  --color-primary:                #004429;
+  --color-primary-container:      #0b5d3b;
+  --color-primary-fixed:          #a8f3c6;
+  --color-primary-fixed-dim:      #8dd6ab;
+  --color-on-primary:             #ffffff;
+  --color-on-primary-container:   #8ad4a8;
+  --color-on-primary-fixed:       #002111;
+  --color-on-primary-fixed-variant:#005232;
+  --color-inverse-primary:        #8dd6ab;
+
+  --color-secondary:              #006c48;
+  --color-secondary-container:    #91f3c1;
+  --color-secondary-fixed:        #94f6c3;
+  --color-secondary-fixed-dim:    #78d9a9;
+  --color-on-secondary:           #ffffff;
+  --color-on-secondary-container: #00714b;
+  --color-on-secondary-fixed:     #002113;
+  --color-on-secondary-fixed-variant:#005235;
+
+  --color-tertiary:               #4d3600;
+  --color-tertiary-container:     #684c0d;
+  --color-tertiary-fixed:         #ffdea5;
+  --color-tertiary-fixed-dim:     #e9c178;
+  --color-on-tertiary:            #ffffff;
+  --color-on-tertiary-container:  #e5be75;
+  --color-on-tertiary-fixed:      #271900;
+  --color-on-tertiary-fixed-variant:#5d4202;
+
+  /* ── Surfaces ── */
+  --color-surface:                #effdf3;
+  --color-surface-dim:            #cfddd4;
+  --color-surface-bright:         #effdf3;
+  --color-surface-variant:        #d8e6dc;
+  --color-surface-tint:           #206b48;
+  --color-surface-container-lowest:#ffffff;
+  --color-surface-container-low:  #e9f7ed;
+  --color-surface-container:      #e3f1e7;
+  --color-surface-container-high: #ddece2;
+  --color-surface-container-highest:#d8e6dc;
+  --color-on-surface:             #121e18;
+  --color-on-surface-variant:     #404942;
+  --color-inverse-surface:        #27332d;
+  --color-inverse-on-surface:     #e6f4ea;
+  --color-background:             #effdf3;
+  --color-on-background:          #121e18;
+
+  /* ── Utility ── */
+  --color-outline:                #707a72;
+  --color-outline-variant:        #bfc9c0;
+  --color-error:                  #ba1a1a;
+  --color-error-container:        #ffdad6;
+  --color-on-error:               #ffffff;
+  --color-on-error-container:     #93000a;
+
+  /* ── Spacing ── */
+  --space-2xs:   0.25rem;   /*  4px */
+  --space-xs:    0.5rem;    /*  8px */
+  --space-sm:    0.75rem;   /* 12px */
+  --space-md:    1rem;      /* 16px */
+  --space-lg:    1.5rem;    /* 24px */
+  --space-xl:    2rem;      /* 32px */
+  --space-2xl:   3rem;      /* 48px */
+  --space-3xl:   4rem;      /* 64px */
+  --space-4xl:   6rem;      /* 96px */
+  --gutter-xs: 0.75rem;
+  --gutter-mobile: 1rem;
+  --gutter-desktop: 2rem;
+  --container-max: 1280px;
+
+  /* ── Typography ── */
+  --font-display:   'Playfair Display', Georgia, serif;
+  --font-body:      'Plus Jakarta Sans', system-ui, sans-serif;
+
+  --fs-label-caps:   11px;
+  --lh-label-caps:   16px;
+  --ls-label-caps:   0.12em;
+  --fw-label-caps:   700;
+
+  --fs-label-ui:     14px;
+  --lh-label-ui:     20px;
+  --ls-label-ui:     0.01em;
+  --fw-label-ui:     600;
+
+  --fs-body-sm:      13px;
+  --lh-body-sm:      20px;
+  --ls-body-sm:      0.01em;
+  --fw-body-sm:      400;
+
+  --fs-body-md:      15px;
+  --lh-body-md:      24px;
+  --ls-body-md:      0em;
+  --fw-body-md:      400;
+
+  --fs-body-lg:      17px;
+  --lh-body-lg:      28px;
+  --ls-body-lg:      0.01em;
+  --fw-body-lg:      400;
+
+  --fs-subheading-sm: 15px;
+  --lh-subheading-sm: 22px;
+  --ls-subheading-sm: 0.02em;
+  --fw-subheading-sm: 600;
+
+  --fs-subheading-lg: 18px;
+  --lh-subheading-lg: 26px;
+  --ls-subheading-lg: 0.01em;
+  --fw-subheading-lg: 600;
+
+  --fs-headline-sm:   22px;
+  --lh-headline-sm:   30px;
+  --ls-headline-sm:   0em;
+  --fw-headline-sm:   500;
+
+  --fs-headline-md:   28px;
+  --lh-headline-md:   36px;
+  --ls-headline-md:   0em;
+  --fw-headline-md:   500;
+
+  --fs-headline-lg-mobile: 28px;
+  --lh-headline-lg-mobile: 36px;
+  --ls-headline-lg-mobile: 0em;
+  --fw-headline-lg-mobile: 600;
+
+  --fs-headline-lg:   40px;
+  --lh-headline-lg:   48px;
+  --ls-headline-lg:   -0.01em;
+  --fw-headline-lg:   600;
+
+  --fs-display-hero-mobile: 38px;
+  --lh-display-hero-mobile: 46px;
+  --ls-display-hero-mobile: -0.01em;
+  --fw-display-hero-mobile: 600;
+
+  --fs-display-hero:  56px;
+  --lh-display-hero:  64px;
+  --ls-display-hero:  -0.02em;
+  --fw-display-hero:  600;
+
+  /* ── Border Radius ── */
+  --radius-sm:   0.25rem;
+  --radius-md:   0.5rem;
+  --radius-lg:   0.75rem;
+  --radius-xl:   1rem;
+  --radius-2xl:  1.5rem;
+  --radius-3xl:  2rem;
+  --radius-full: 9999px;
+
+  /* ── Shadows ── */
+  --shadow-card:    0 12px 28px -8px rgba(11,93,59,0.08);
+  --shadow-card-hover: 0 20px 40px -10px rgba(11,93,59,0.16);
+  --shadow-header:  0 8px 24px -6px rgba(11,93,59,0.08);
+  --shadow-btn:     0 12px 28px -6px rgba(11,93,59,0.28);
+  --shadow-float:   0 16px 36px -10px rgba(11,93,59,0.18);
+  --shadow-hero:    0 24px 64px -16px rgba(11,93,59,0.32);
+
+  /* ── Transitions ── */
+  --transition-fast:  all 0.2s ease;
+  --transition-base:  all 0.3s ease;
+  --transition-slow:  all 0.5s ease;
+  --transition-cubic: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
