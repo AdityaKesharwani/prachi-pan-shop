@@ -1,7 +1,7 @@
 import react from '@vitejs/plugin-react'
 import { defineConfig } from 'vite'
 
-const base = process.env.VITE_BASE_NAME || '/'
+const base = process.env.VITE_BASE_NAME || (process.env.NODE_ENV === 'production' ? '/prachi-pan-shop/' : '/')
 
 // https://vite.dev/config/
 export default defineConfig({
