@@ -4,4 +4,6 @@ import { defineConfig } from 'vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+  // GitHub Pages serves project sites from /<repository-name>/.
+  base: process.env.VITE_BASE_NAME || '/',
 })
