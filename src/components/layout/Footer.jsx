@@ -170,17 +170,21 @@ export default function Footer() {
             © 2025 Prachi Pan Bhandar. Crafted with royal reverence. All rights reserved.
           </span>
           <div className="footer-bottom-links" style={{ display: 'flex', gap: '1.5rem', flexWrap: 'wrap' }}>
-            {['Privacy Protocol', 'Purity Guarantee', 'Catering Enquiries'].map((txt) => (
-              <a
-                key={txt}
-                href="#"
+            {[
+              { to: '/privacy', label: 'Privacy Protocol' },
+              { to: '/purity', label: 'Purity Guarantee' },
+              { to: '/catering', label: 'Catering Enquiries' },
+            ].map(({ to, label }) => (
+              <Link
+                key={to}
+                to={to}
                 className="text-label-caps"
                 style={{ color: 'var(--color-on-surface-variant)', textDecoration: 'none', transition: 'color 0.2s ease' }}
                 onMouseEnter={(e) => (e.target.style.color = 'var(--color-primary)')}
                 onMouseLeave={(e) => (e.target.style.color = 'var(--color-on-surface-variant)')}
               >
-                {txt}
-              </a>
+                {label}
+              </Link>
             ))}
           </div>
         </div>

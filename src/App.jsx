@@ -12,6 +12,9 @@ import GalleryPage from './pages/GalleryPage';
 import ExperiencePage from './pages/ExperiencePage';
 import BranchesPage from './pages/BranchesPage';
 import ContactPage from './pages/ContactPage';
+import PrivacyPage from './pages/PrivacyPage';
+import PurityPage from './pages/PurityPage';
+import CateringPage from './pages/CateringPage';
 import NotFoundPage from './pages/NotFoundPage';
 
 export default function App() {
@@ -27,6 +30,9 @@ export default function App() {
           <Route path="/experience" element={<ExperiencePage />} />
           <Route path="/branches" element={<BranchesPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/privacy" element={<PrivacyPage />} />
+          <Route path="/purity" element={<PurityPage />} />
+          <Route path="/catering" element={<CateringPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </PageWrapper>
