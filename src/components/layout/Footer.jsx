@@ -127,7 +127,7 @@ export default function Footer() {
                 +91 92035 30069
               </a>
               <a
-                href="tel:6261810017"
+                href="tel:7746034037"
                 className="text-body-sm footer-contact-link"
                 style={{ display: 'flex', alignItems: 'center', gap: '8px', color: 'var(--color-on-surface-variant)', textDecoration: 'none', transition: 'color 0.2s ease' }}
               >
