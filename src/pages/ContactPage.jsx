@@ -25,7 +25,7 @@ const contactCards = [
   {
     icon: MdCall,
     title: 'Direct Lines',
-    lines: ['+91 92035 30069 (Mr. Ramu)', '+91 62618 10017 (Atelier Desk)'],
+    lines: ['+91 92035 30069 (Mr. Ramu)', '+91 77460 34037 (Atelier Desk)'],
     action: { label: 'Call Now', url: 'tel:9203530069' },
     color: 'tertiary',
   },
@@ -208,7 +208,7 @@ export default function ContactPage() {
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
                   {[
                     { icon: MdCall, label: 'Call: 92035 30069', url: 'tel:9203530069', color: 'var(--color-primary)' },
-                    { icon: MdPhoneIphone, label: 'Call: 62618 10017', url: 'tel:7746034037', color: 'var(--color-tertiary)' },
+                    { icon: MdPhoneIphone, label: 'Call: 77460 34037', url: 'tel:7746034037', color: 'var(--color-tertiary)' },
                   ].map((btn) => (
                     <a key={btn.url} href={btn.url} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px', padding: '12px', borderRadius: '12px', background: 'var(--color-surface-container-lowest)', color: btn.color, textDecoration: 'none', fontWeight: 600, fontSize: 'var(--fs-label-ui)', boxShadow: '0 2px 8px rgba(0,0,0,0.05)', transition: 'all 0.2s ease', border: `1px solid ${btn.color}40` }}>
                       <btn.icon size={18} />

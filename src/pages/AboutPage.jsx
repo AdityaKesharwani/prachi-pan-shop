@@ -763,7 +763,7 @@ export default function AboutPage() {
                           <MdCall size={16} /> +91 92035 30069
                         </a>
                         <a href="tel:7746034037" style={{ color: 'var(--color-secondary, #006c48)', fontWeight: 600, display: 'inline-flex', alignItems: 'center', gap: '4px', textDecoration: 'none' }}>
-                          <MdCall size={16} /> +91 62618 10017
+                          <MdCall size={16} /> +91 77460 34037
                         </a>
                       </div>
                     </div>

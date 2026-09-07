@@ -377,7 +377,7 @@ export default function HomePage() {
                       <MdCall size={18} /> 92035 30069
                     </a>
                     <a href="tel:7746034037" style={{ display: 'inline-flex', alignItems: 'center', gap: '6px', padding: '8px 16px', borderRadius: '9999px', background: 'var(--color-primary-container)', color: '#fff', textDecoration: 'none', fontSize: 'var(--fs-label-ui)', fontWeight: 600 }}>
-                      62618 10017
+                      77460 34037
                     </a>
                   </div>
                 </div>

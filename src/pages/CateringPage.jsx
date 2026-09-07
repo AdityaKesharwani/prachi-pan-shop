@@ -725,7 +725,7 @@ Namaste Ramu ji, please share availability and custom quote for our celebration.
                   <MdCall size={18} /> Call: +91 92035 30069
                 </a>
                 <a href="tel:7746034037" className="btn-ppb-outline" style={{ textDecoration: 'none' }}>
-                  <MdCall size={18} /> Call: +91 62618 10017
+                  <MdCall size={18} /> Call: +91 77460 34037
                 </a>
               </div>
             </div>

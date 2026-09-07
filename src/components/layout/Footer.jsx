@@ -132,7 +132,7 @@ export default function Footer() {
                 style={{ display: 'flex', alignItems: 'center', gap: '8px', color: 'var(--color-on-surface-variant)', textDecoration: 'none', transition: 'color 0.2s ease' }}
               >
                 <MdPhoneIphone size={18} color="var(--color-tertiary)" />
-                +91 62618 10017
+                +91 77460 34037
               </a>
             </div>
             <a
