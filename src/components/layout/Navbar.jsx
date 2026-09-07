@@ -201,9 +201,9 @@ export default function Navbar() {
             </a>
 
             {/* 🌐 Language Switcher (ENG / HIN) 🌐 */}
-            <span className="nav-lang-selector">
+            {/* <span className="nav-lang-selector">
               <LanguageSelector />
-            </span>
+            </span> */}
 
             {/* Mobile Toggle Button */}
             <button
