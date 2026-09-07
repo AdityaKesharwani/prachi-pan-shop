@@ -169,7 +169,7 @@ export default function Footer() {
           <span className="text-body-sm" style={{ color: 'var(--color-on-surface-variant)' }}>
             © 2025 Prachi Pan Bhandar. Crafted with royal reverence. All rights reserved.
           </span>
-          <div className="footer-bottom-links" style={{ display: 'flex', gap: '1.5rem', flexWrap: 'wrap' }}>
+          {/* <div className="footer-bottom-links" style={{ display: 'flex', gap: '1.5rem', flexWrap: 'wrap' }}>
             {[
               { to: '/privacy', label: 'Privacy Protocol' },
               { to: '/purity', label: 'Purity Guarantee' },
@@ -182,6 +182,32 @@ export default function Footer() {
                 style={{ color: 'var(--color-on-surface-variant)', textDecoration: 'none', transition: 'color 0.2s ease' }}
                 onMouseEnter={(e) => (e.target.style.color = 'var(--color-primary)')}
                 onMouseLeave={(e) => (e.target.style.color = 'var(--color-on-surface-variant)')}
+              >
+                {label}
+              </Link>
+            ))}
+          </div> */}
+
+          <div
+            className="footer-bottom-links"
+            style={{ display: 'flex', gap: '1.5rem', flexWrap: 'wrap' }}
+          >
+            {[
+              { to: '/privacy', label: 'Privacy Protocol' },
+            ].map(({ to, label }) => (
+              <Link
+                key={to}
+                to={to}
+                className="text-label-caps"
+                style={{
+                  color: 'var(--color-on-surface-variant)',
+                  textDecoration: 'none',
+                  transition: 'color 0.2s ease',
+                }}
+                onMouseEnter={(e) => (e.target.style.color = 'var(--color-primary)')}
+                onMouseLeave={(e) =>
+                  (e.target.style.color = 'var(--color-on-surface-variant)')
+                }
               >
                 {label}
               </Link>
